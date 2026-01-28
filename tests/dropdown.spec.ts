@@ -42,7 +42,7 @@ test("dropdown without select option", async({page})=>{
 
 })
 
-test.only("dropdown with value attribute", async({page})=>{
+test("dropdown with value attribute", async({page})=>{
 
       await page.goto('http://www.leaftaps.com/opentaps/control/logout');
 
